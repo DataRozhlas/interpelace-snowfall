@@ -10,6 +10,19 @@
     }
 }
 
+@media only screen and (min-width: 801px) {
+    #kdoskym {
+        width: 100%;
+        height: 800px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    #kdoskym {
+        width: 0px;
+        height: 0px;
+    }
+}
 
 #chart {
     max-width: 100%;
@@ -77,3 +90,20 @@
 #csv {
     display: none;
 }
+
+.dtr-details {
+    list-style: initial !important;
+    font-size: medium !important;
+    line-height: 1.5 !important;
+}
+
+.dtr-details > li {
+    background: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+
+
+
